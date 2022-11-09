@@ -42,7 +42,7 @@
       <li class="nav-item mr-auto">
         <a class="navbar-brand" href="">
           <!-- <div class="brand-logo"><img class="logo" src="{{ asset('images/logo/no-image.png') }}" /></div> -->
-          <h2 class="brand-text mb-0">TEMPLATE</h2>
+          <h2 class="brand-text mb-0">VAKSINASI</h2>
         </a></li>
       <li class="nav-item nav-toggle">
         <a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse">

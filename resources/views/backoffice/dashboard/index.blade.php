@@ -12,39 +12,65 @@
         <section id="dashboard-ecommerce">
           <div class="row">
             <!-- Greetings Content Starts -->
-            <div class="col-xl-4 col-12 dashboard-users">
+            <div class="col-xl-6 col-12 dashboard-users">
               <div class="row  ">
                 <!-- Statistics Cards Starts -->
-                <!-- <div class="col-12">
+                <div class="col-12">
                   <div class="row">
-                    <div class="col-sm-6 col-12 dashboard-users-success">
+                    <div class="col-sm-4 col-12 dashboard-users-success">
                       <div class="card text-center">
                         <div class="card-content">
                           <div class="card-body py-1">
                             <div class="badge-circle badge-circle-lg badge-circle-light-success mx-auto mb-50">
                               <i class="bx bx-briefcase-alt font-medium-5"></i>
                             </div>
-                            <div class="text-muted line-ellipsis">Total Hired</div>
-                            <h3 class="mb-0">16</h3>
+                            <div class="text-muted line-ellipsis">Rumah Sakit</div>
+                            <h3 class="mb-0">{{$rumah_sakit}}</h3>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-12 dashboard-users-danger">
+                    <div class="col-sm-4 col-12 dashboard-users-danger">
                       <div class="card text-center">
                         <div class="card-content">
                           <div class="card-body py-1">
                             <div class="badge-circle badge-circle-lg badge-circle-light-danger mx-auto mb-50">
                               <i class="bx bx-user font-medium-5"></i>
                             </div>
-                            <div class="text-muted line-ellipsis">Total Rejected</div>
-                            <h3 class="mb-0">45</h3>
+                            <div class="text-muted line-ellipsis">Klinik</div>
+                            <h3 class="mb-0">{{$klinik}}</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 col-12 dashboard-users-danger">
+                      <div class="card text-center">
+                        <div class="card-content">
+                          <div class="card-body py-1">
+                            <div class="badge-circle badge-circle-lg badge-circle-light-danger mx-auto mb-50">
+                              <i class="bx bx-user font-medium-5"></i>
+                            </div>
+                            <div class="text-muted line-ellipsis">Puskesmas</div>
+                            <h3 class="mb-0">{{$puskesmas}}</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 col-12 dashboard-users-danger">
+                      <div class="card text-center">
+                        <div class="card-content">
+                          <div class="card-body py-1">
+                            <div class="badge-circle badge-circle-lg badge-circle-light-danger mx-auto mb-50">
+                              <i class="bx bx-user font-medium-5"></i>
+                            </div>
+                            <div class="text-muted line-ellipsis">Vaksin</div>
+                            <h3 class="mb-0">{{$vaksin}}</h3>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div> -->
+                </div>
                 <!-- Revenue Growth Chart Starts -->
               </div>
             </div>
